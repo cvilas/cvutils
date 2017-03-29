@@ -1,0 +1,20 @@
+* TODO
+======
+-> A config file to manage parameters for the system.
+
+Bandwidth calculation for UDP message passing
+================================================
+- payload (bits per second) = 8 * fps                   // capture frames per sec
+                              * (2 * n * sizeof(float)  // size(feature_list_t)
+                                 + 2 * sizeof(int))
+  With sizeof(float) = sizeof(int) = 4,
+  payload = 64f(n + 1) bits per second.
+
+- Assuming consistently available network bandwidth of b Mbps, max number of features
+  we can track is
+  
+  Max(n) ~= 16384 * (b/f)
+         
+  * with b = 1Mbps and f = 30fps, Max(n) = 546.
+
+

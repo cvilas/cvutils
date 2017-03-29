@@ -1,0 +1,12 @@
+
+%C :
+
+This is a continuous video display program for PXC 200 series 
+framegrabbers from Imagenation. The program allows the user to view 
+video feed from 4 channels, and allows grabbing snapshots to disk 
+as jpeg images.
+ 
+--------------------------------------------------------------------
+Sept 06 2003, Vilas K Chitrakaran <cvilas@ces.clemson.edu>
+
+

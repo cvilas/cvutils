@@ -1,0 +1,20 @@
+TODO:
+1. decompose test cases:
+
+<case> <shastry> <faugeras-known normal>
+a) no motion (3 equal singular values) - [fail] [pass]
+b) general translation [pass] [pass]
+c) translation parallel to normal only (2 equal singular values) [pass] [pass] 
+d) translation antiparallel to normal (with and without rotation) [fail][pass]
+e) pure rotation (3 equal singular values) [fail] [pass]
+f) general motion [pass] [pass]
+
+2. compute() test cases. Decompose and confirm results
+<case> <ls> <kk> <vp>
+a) no motion
+b) translation x
+c) translation y
+d) translation z
+e) general translation
+f) rotation
+g) general motion

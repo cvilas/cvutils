@@ -1,0 +1,8 @@
+pxcdisplay program compilation notes:
+
+1. Compile with static version of libQWidgets and libStatus
+2. Make executable owned by root and executable by anyone
+	
+	chown root pxcdisplay
+	chmod a+x pxcdisplay
+	chmod a+s pxcdisplay

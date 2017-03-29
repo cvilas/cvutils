@@ -1,0 +1,15 @@
+
+%C :
+
+This program captures images continuously from the framegrabber
+and stores images in the specified location.
+
+usage: %C -n <num_images> -f <file base name> -t <trigger channel>
+
+       Specify a value less than 0 for the -t option if you 
+       you want continuous capture (hardware trigger disabled). 
+
+--------------------------------------------------------------------
+Sept 22 2006, Vilas K Chitrakaran <cvilas@ces.clemson.edu>
+
+
